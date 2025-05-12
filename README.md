@@ -22,6 +22,7 @@ Thus, from my findings, InfluxDB's columnar storage design and time-structured m
 *By: Molly Guinan*
 
 Database type: RDBSM
+
 Reasons why:
 
 Structured Data:
@@ -42,29 +43,32 @@ The hint implies strong consistency is necessary — RDBMSs offer this natively,
 *By: Angelina Rodrigues*
 
 We recommend using Elasticsearch or MongoDB as the main database.
+
 Why Elasticsearch?
 
-Great for searching text quickly
-Flexible for different types of data
-Works well with Python and R
-Fast and can handle lots of data
+- Great for searching text quickly
+- Flexible for different types of data
+- Works well with Python and R
+- Fast and can handle lots of data
+
 MongoDB is a good alternative:
 
-Stores documents easily
-Can search text (not as well as Elasticsearch)
-Flexible for different data types
-Works well with Python and R
+- Stores documents easily
+- Can search text (not as well as Elasticsearch)
+- Flexible for different data types
+- Works well with Python and R
+
 We don't recommend just using a regular database (like MySQL) because:
 
-It's not as good at searching text
-It's harder to use with different types of data
-It's not as good for big data analysis
+- It's not as good at searching text
+- It's harder to use with different types of data
+- It's not as good for big data analysis
+
 Best setup:
 
-Use Elasticsearch for searching research reports
-Use MongoDB for storing different types of data
-You could add a regular database for some structured data if needed
-You5:07 PM
+- Use Elasticsearch for searching research reports
+- Use MongoDB for storing different types of data
+- You could add a regular database for some structured data if needed
 
 ---
 
