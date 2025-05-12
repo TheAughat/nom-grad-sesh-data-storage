@@ -102,30 +102,22 @@ For employee access patterns
 
 Why:
 
-Excellent for time-series data
-
-Handles high-velocity writes
-
-Linear scalability for 1B+ data points
-
-Built-in timestamp handling
-
-Strong performance for time-based queries
+- Excellent for time-series data
+- Handles high-velocity writes
+- Linear scalability for 1B+ data points
+- Built-in timestamp handling
+- Strong performance for time-based queries
 
 Neo4j (Graph Database)
 
 For dark web scraping feeds
 
 Why:
-Native graph storage for relationship analysis
-
-Efficient pattern matching
-
-Cypher query language for complex relationship queries
-
-Good for detecting fraud patterns and networks
-
-Built-in graph algorithms
+- Native graph storage for relationship analysis
+- Efficient pattern matching
+- Cypher query language for complex relationship queries
+- Good for detecting fraud patterns and networks
+- Built-in graph algorithms
 
 PostgreSQL (RDBMS)
 
@@ -133,41 +125,30 @@ For trade reconciliation logs
 
 Why:
 
-ACID compliance for financial data
-
-Strong data integrity
-
-Complex JOIN operations
-
-Mature ecosystem for financial systems
-
-Built-in JSON support for flexibility
+- ACID compliance for financial data
+- Strong data integrity
+- Complex JOIN operations
+- Mature ecosystem for financial systems
+- Built-in JSON support for flexibility
 
 Integration Layer:
 
-Apache Kafka for real-time data streaming
+1. Apache Kafka for real-time data streaming
 
-Apache Spark for cross-database analytics
+2. Apache Spark for cross-database analytics
 
 Why Not Single Database:
 
-Different data types need specialized handling
-
-Real-time requirements need distributed processing
-
-Complex relationships need graph capabilities
-
-Time-series data needs optimized storage
+- Different data types need specialized handling
+- Real-time requirements need distributed processing
+- Complex relationships need graph capabilities
+- Time-series data needs optimized storage
 
 This architecture allows:
 
-Real-time anomaly detection across all data sources
-
-Scalable processing of 1B+ data points
-
-Flexible integration of different data types
-
-Quick alert generation for suspicious patterns
-
-Historical analysis capabilities
+- Real-time anomaly detection across all data sources
+- Scalable processing of 1B+ data points
+- Flexible integration of different data types
+- Quick alert generation for suspicious patterns
+- Historical analysis capabilities
 
